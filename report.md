@@ -125,8 +125,14 @@
 
 ## 八、运行结果
 
-| 测试项 | 命令 | 结果 |
-| --- | --- | --- |
-| 公开测试 | `make test` | Public tests 60/60、Secret public tests 10/10，全部通过 |
-| 额外 seed 验证 | `./defuser --seed 43 \| ./bomb --seed 43` | Phase 1~6 与 Secret 全部 defused，输出 Congratulations |
-| 在线验证 | GitHub Actions（BombLab public tests） | 运行通过（绿色 ✓） |
+![运行结果 1](images/lab2.1.png)
+![运行结果 2](images/lab2.2.png)
+![运行结果 3](images/lab2.3.png)
+![运行结果 4](images/lab2.4.png)
+![运行结果 5](images/lab2.5.png)
+
+| 测试项 | 结果 |
+| --- | --- |
+| make test | Public tests 60/60、Secret public tests 10/10 |
+| seed 43 完整通关 | 全部 defused，输出 Congratulations |
+| GitHub Actions | 运行通过（绿色 ✓） |
